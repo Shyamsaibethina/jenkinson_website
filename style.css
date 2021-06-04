@@ -23,6 +23,31 @@ h2 {
   font-size: 30px;
 }
 
-#va:hover {
-  color: white;
+.navLink:hover {
+  color: orange;
+}
+
+.navLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+#homepage {
+  list-style: none;
+  width: 25%;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: flex-start;
+}
+
+#otherpages {
+  list-style: none;
+  width: 75%;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: flex-end;
+}
+
+.navmenu {
+  color: blue;
 }
