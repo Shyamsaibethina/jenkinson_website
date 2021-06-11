@@ -36,6 +36,7 @@ h2 {
 
 .navmenu a.active {
   background-color: orange;
+  color: blue;
 }
 
 .header-nav-other:hover {
@@ -43,10 +44,9 @@ h2 {
   background-color: orange;
 }
 
-/* second style: words will turn gray when hovered on top
-.header-nav-other:hover {
+.header-nav-logo:hover {
   color: gray;
-} */
+}
 
 .header-nav-other {
   text-decoration: none;
@@ -65,4 +65,8 @@ h2 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.body {
+  margin-top: 50px;
 }
