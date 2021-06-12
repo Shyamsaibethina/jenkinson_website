@@ -27,7 +27,7 @@ h2 {
 */
 
 .navmenu {
-  background-color: darkblue;
+  background-color: black;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -40,13 +40,13 @@ h2 {
 }
 
 .header-nav-other:hover {
-  color: blue;
-  background-color: orange;
+  color: gray;
+  /*background-color: orange;*/
 }
 
-.header-nav-logo:hover {
+/*.header-nav-logo:hover {
   color: gray;
-}
+}*/
 
 .header-nav-other {
   text-decoration: none;
@@ -69,4 +69,8 @@ h2 {
 
 .body {
   margin-top: 50px;
+}
+
+.class {
+  background-color: black;
 }
