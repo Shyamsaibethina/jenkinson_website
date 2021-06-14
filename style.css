@@ -67,10 +67,50 @@ h2 {
   font-size: 17px;
 }
 
-.body {
-  margin-top: 50px;
+.top_left {
+  background-color: black;
+  margin-top: 45px;
+  float: left;
+  width: 1000px;
 }
 
-.class {
+#company_motto {
+  padding-top: 100px;
+  padding-left: 25px;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+}
+
+#company_indepth {
+  font-size: 25px;
+  padding-top: 50px;
+  padding-left: 25px;
+  color: white;
+}
+
+.top_right {
   background-color: black;
+  height: 400px;
+}
+
+.company_picture {
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+.howit_container {
+  background-color: black;
+  padding-top: 150px;
+}
+
+#howit_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 550;
+  color: white;
+}
+
+.description {
+  color: white;
 }
