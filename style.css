@@ -120,10 +120,41 @@ h2 {
 
 .howit_desc_container {
   width: 300px;
-  float: left;
   background-color: black;
-  height: 150px;
-  border-top: 100px;
-  /*padding-top: 100px;
-  padding-left: 100px;*/
+  float: left;
+  padding-left: 125px;
+}
+
+.container_for_steps {
+  background-color: black;
+  padding-top: 75px;
+  float: left;
+  width: 100%;
+}
+
+.organizations_container {
+  background-color: black;
+  padding-top: 300px;
+}
+
+#organizaton_title {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 550;
+}
+
+.frow_pictures {
+  width: 200px;
+  /*border-radius: 100px;*/
+  padding-left: 75px;
+}
+
+#boeing {
+  border-radius: 50px;
+}
+
+#exxon {
+  border-radius: 0px;
+  padding-bottom: 50px;
 }
