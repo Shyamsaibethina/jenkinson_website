@@ -113,4 +113,17 @@ h2 {
 
 .description {
   color: white;
+  font-size: 23px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.howit_desc_container {
+  width: 300px;
+  float: left;
+  background-color: black;
+  height: 150px;
+  border-top: 100px;
+  /*padding-top: 100px;
+  padding-left: 100px;*/
 }
