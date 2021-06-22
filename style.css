@@ -147,7 +147,11 @@ h2 {
 .frow_pictures {
   width: 200px;
   /*border-radius: 100px;*/
-  padding-left: 75px;
+  padding-left: 100px;
+}
+
+#airforce {
+  padding-left: 50px;
 }
 
 #boeing {
@@ -161,7 +165,11 @@ h2 {
 
 .srow_pictures {
   width: 250px;
-  border-radius: 100px;
+  border-radius: 150px;
+}
+
+#army {
+  padding-left: 170px;
 }
 
 #nasa {
