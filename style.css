@@ -158,3 +158,23 @@ h2 {
   border-radius: 0px;
   padding-bottom: 50px;
 }
+
+.srow_pictures {
+  width: 250px;
+  border-radius: 100px;
+}
+
+#nasa {
+  height: 250px;
+  width: 475px;
+}
+
+#unitedtech {
+  border-radius: 0px;
+  padding-bottom: 50px;
+}
+
+#kbr {
+  border-radius: 0px;
+  padding-bottom: 50px;
+}
