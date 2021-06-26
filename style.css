@@ -1,6 +1,7 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0px;
+  color: white;
 }
 
 /*
@@ -140,7 +141,7 @@ h2 {
 #organizaton_title {
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 550;
 }
 
@@ -148,6 +149,7 @@ h2 {
   width: 200px;
   /*border-radius: 100px;*/
   padding-left: 100px;
+  padding-top: 50px;
 }
 
 #airforce {
@@ -175,14 +177,38 @@ h2 {
 #nasa {
   height: 250px;
   width: 475px;
+  position: relative;
+  right: 50px;
 }
 
 #unitedtech {
   border-radius: 0px;
   padding-bottom: 50px;
+  position: relative;
+  right: 60px;
 }
 
 #kbr {
   border-radius: 0px;
   padding-bottom: 50px;
+}
+
+.experience_container {
+  background-color: black;
+  padding-top: 100px;
+}
+
+.experience_title_container {
+  padding-left: 75px;
+  width: 50%;
+}
+
+.experience_desc_container {
+  float: left;
+  background-color: black;
+  width: 25%;
+}
+
+.experience_title {
+  font-size: 50px;
 }
