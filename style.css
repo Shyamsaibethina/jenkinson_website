@@ -33,6 +33,7 @@ h2 {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 9999;
 }
 
 .navmenu a.active {
@@ -198,17 +199,48 @@ h2 {
   padding-top: 100px;
 }
 
+/*
 .experience_title_container {
-  padding-left: 75px;
+  /*padding-left: 75px; 
   width: 50%;
-}
+  overflow-x: hidden;
+  float: left;
+  background-color: black;
+} */
 
 .experience_desc_container {
   float: left;
   background-color: black;
-  width: 25%;
+  width: 100%;
+  text-align: center;
 }
-
+/*
 .experience_title {
   font-size: 50px;
+  padding-left: 100px;
+} */
+
+.experience_description {
+  font-size: x-large;
+}
+
+.faq_container {
+  background-color: black;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.faq_title {
+  color: white;
+  font-size: 50px;
+  font-weight: 550;
+}
+
+.faq_descr_container {
+  padding-top: 25px;
+  margin-inline: 100px;
+}
+
+.faq_description {
+  font-size: 25px;
 }
