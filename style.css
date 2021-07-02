@@ -244,3 +244,61 @@ h2 {
 .faq_description {
   font-size: 25px;
 }
+
+.started_container {
+  padding-top: 100px;
+  background-color: black;
+}
+
+.started_title_container {
+  text-align: center;
+}
+
+.started_contactus_container {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.started_title {
+  color: white;
+  font-size: 50px;
+  font-weight: 550;
+}
+
+.contactus {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.address_name_container {
+  width: 50%;
+  float: left;
+  background-color: black;
+  padding-top: 50px;
+}
+
+.address_name {
+  padding-left: 300px;
+}
+
+.office_container {
+  width: 50%;
+  float: left;
+  background-color: black;
+  padding-top: 50px;
+}
+
+.office {
+  padding-left: 200px;
+}
+
+.ending {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background-color: black;
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+}
