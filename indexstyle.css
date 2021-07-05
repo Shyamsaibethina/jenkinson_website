@@ -1,5 +1,4 @@
 * {
-  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0px;
   color: white;
 }
@@ -278,7 +277,7 @@ h2 {
 }
 
 .address_name {
-  padding-left: 300px;
+  padding-left: 250px;
 }
 
 .office_container {
@@ -301,4 +300,16 @@ h2 {
 
 .footer {
   background-color: black;
+}
+
+.performance {
+  color: blue;
+}
+
+.sales {
+  color: orange;
+}
+
+.profits {
+  color: green;
 }
