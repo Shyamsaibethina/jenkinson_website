@@ -7,6 +7,9 @@
     <title>Virtual/Augmented</title>
     <link href="./augmentedstyle.css" rel="stylesheet" />
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/path/to/parallax.min.js"></script>
   </head>
   <body>
     <header>
@@ -27,18 +30,24 @@
       </div>
     </header>
 
-    <div class="first_description">
-      <p>
-        Our products feature a revolutionary new patented high density, high
-        speed, ultra compact, power efficient, ruggedized, 6+ DOF sensing and
-        computing platform utilizing newly and soon-to-be released patent
-        pending computing and sensing technology
-      </p>
+    <div
+      class="parallax-window"
+      data-parallax="scroll"
+      data-image-src="/images/vastock.jpg"
+    >
+      <div class="first_description">
+        <p>
+          Our products feature a revolutionary new patented high density, high
+          speed, ultra compact, power efficient, ruggedized, 6+ DOF sensing and
+          computing platform utilizing newly and soon-to-be released patent
+          pending computing and sensing technology
+        </p>
+      </div>
     </div>
 
     <!--
-    <script>
-      ScrollReveal().reveal(".test");
-    </script> -->
+      <script>
+        ScrollReveal().reveal(".test");
+      </script> -->
   </body>
 </html>
