@@ -1,5 +1,4 @@
 * {
-  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0px;
   color: white;
 }
@@ -80,5 +79,51 @@
   color: black;
 }
 
-.first_description {
+.descriptions {
+  background-color: black;
+}
+
+.cap_title_cont {
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.vr_titles {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.cap_descr_cont {
+  padding-top: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.vr_descriptions {
+  font-size: 20px;
+}
+
+.vrimages {
+  padding-top: 50px;
+  width: 34%;
+}
+
+#vr1 {
+  padding-left: 200px;
+}
+
+#ar1 {
+  padding-right: 200px;
+  padding-left: 50px;
+}
+
+.vr_progress_container {
+  padding-top: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+}
+
+#second_description {
+  padding-top: 40px;
 }
