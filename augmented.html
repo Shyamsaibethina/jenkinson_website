@@ -9,7 +9,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/path/to/parallax.min.js"></script>
+    <script src="parallax.min.js"></script>
     <style>
       @font-face {
         font-family: Raleway;
@@ -40,70 +40,61 @@
     </header>
 
     <div
-      class="parallax-window"
+      class="whole-thing"
       data-parallax="scroll"
-      data-image-src="/path/to/images/vastock.jpg"
+      data-image-src="/images/vastock.jpg"
     >
-      <div class="title_container">
-        <p class="title">Virtual/Augmented/Mixed Reality</p>
+      <div class="parallax-window">
+        <div class="title_container">
+          <p class="title">Virtual/Augmented/Mixed Reality</p>
+        </div>
+
+        <div class="descriptions">
+          <div class="cap_title_cont">
+            <p class="vr_titles">Solutions</p>
+          </div>
+          <div class="cap_descr_cont">
+            <p class="vr_descriptions">
+              With over 50 years of experience in the VA/AR/MR industry, we have
+              created many technologies that are carefully tailored to our
+              clients. Whether it's developing technologies for Military,
+              Industrial, and Civilian Training, or for just entertainment
+              purposes, you can be assured that we produce the highest quality
+              of solutions.
+            </p>
+          </div>
+
+          <div class="pictures_cont">
+            <img
+              src="/images/virtualreality1.jpg"
+              alt="People working on Virtual Reality Solutions"
+              class="vrimages"
+              id="vr1"
+            />
+            <img
+              src="/images/ar.jpg"
+              alt="Augmented Reality being used"
+              class="vrimages"
+              id="ar1"
+            />
+          </div>
+
+          <div class="vr_progress_container">
+            <p class="vr_titles">Progress</p>
+            <p class="vr_descriptions" , id="second_description">
+              Our focus is building unique hardware and software solutions using
+              Edge Computing and IIOT that significantly advance capabilities of
+              complex systems and of Virtual, Augmented, and Mixed reality
+              training and entertainment platforms. <br />
+              <br />
+              Our products feature a revolutionary new patented high density,
+              high speed, ultra compact, power efficient, ruggedized, 6+ DOF
+              sensing and computing platform utilizing newly and soon-to-be
+              released patent pending computing and sensing technology.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="descriptions">
-      <div class="cap_title_cont">
-        <p class="vr_titles">Solutions</p>
-      </div>
-      <div class="cap_descr_cont">
-        <p class="vr_descriptions">
-          With over 50 years of experience in the VA/AR/MR industry, we have
-          created many technologies that are carefully tailored to our clients.
-          Whether it's developing technologies for Military, Industrial, and
-          Civilian Training, or for just entertainment purposes, you can be
-          assured that we produce the highest quality of solutions.
-        </p>
-        <!--
-        <p>
-          Our products feature a revolutionary new patented high density, high
-          speed, ultra compact, power efficient, ruggedized, 6+ DOF sensing and
-          computing platform utilizing newly and soon-to-be released
-          patent pending computing and sensing technology, our
-        </p>-->
-      </div>
-
-      <div class="pictures_cont">
-        <img
-          src="/images/virtualreality1.jpg"
-          alt="People working on Virtual Reality Solutions"
-          class="vrimages"
-          id="vr1"
-        />
-        <img
-          src="/images/ar.jpg"
-          alt="Augmented Reality being used"
-          class="vrimages"
-          id="ar1"
-        />
-      </div>
-
-      <div class="vr_progress_container">
-        <p class="vr_titles">Progress</p>
-        <p class="vr_descriptions" , id="second_description">
-          Our focus is building unique hardware and software solutions using
-          Edge Computing and IIOT that significantly advance capabilities of
-          complex systems and of Virtual, Augmented, and Mixed reality training
-          and entertainment platforms. <br />
-          <br />
-          Our products feature a revolutionary new patented high density, high
-          speed, ultra compact, power efficient, ruggedized, 6+ DOF sensing and
-          computing platform utilizing newly and soon-to-be released patent
-          pending computing and sensing technology.
-        </p>
-      </div>
-    </div>
-
-    <!--
-      <script>
-        ScrollReveal().reveal(".test");
-      </script> -->
   </body>
 </html>

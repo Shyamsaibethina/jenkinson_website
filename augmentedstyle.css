@@ -3,22 +3,18 @@
   color: white;
 }
 
-/*
 .parallax-window {
   min-height: 400px;
   background: transparent;
   margin-top: 48px;
-  float: left;
-  width: 1000px;
-}*/
+}
 
 .title_container {
-  background-image: url("/images/vastock.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 48px;
   text-align: center;
-  height: 400px;
+  height: 600px;
 }
 
 .title {
@@ -26,10 +22,6 @@
   color: white;
   font-size: 75px;
   font-weight: 900;
-}
-
-.first_description {
-  background-color: black;
 }
 
 .navmenu {
@@ -72,11 +64,6 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-}
-
-.test {
-  padding-top: 500px;
-  color: black;
 }
 
 .descriptions {
