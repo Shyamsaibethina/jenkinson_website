@@ -95,3 +95,25 @@
 #graph2 {
   padding-left: 10px;
 }
+
+.purpose_last {
+  padding-top: 40px;
+  color: white;
+  font-size: 20px;
+  padding-inline: 200px;
+}
+
+.what_we_doing_title {
+  padding-top: 60px;
+  padding-left: 200px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.what_we_do_descr {
+  padding-top: 30px;
+  color: white;
+  font-size: 20px;
+  padding-inline: 200px;
+  padding-bottom: 100px;
+}
