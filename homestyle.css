@@ -90,6 +90,13 @@ h2 {
   color: white;
 }
 
+#leading_solutions {
+  font-size: 25px;
+  padding-top: 50px;
+  padding-left: 25px;
+  color: white;
+}
+
 .top_right {
   background-color: black;
   height: 400px;
@@ -102,7 +109,7 @@ h2 {
 
 .howit_container {
   background-color: black;
-  padding-top: 150px;
+  padding-top: 400px;
 }
 
 #howit_title {
@@ -143,6 +150,7 @@ h2 {
   text-align: center;
   font-size: 50px;
   font-weight: 550;
+  padding-top: 250px;
 }
 
 .frow_pictures {

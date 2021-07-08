@@ -44,3 +44,24 @@
   text-decoration: none;
   font-size: 17px;
 }
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+  margin-top: 48px;
+}
+
+.title_container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 48px;
+  text-align: center;
+  height: 600px;
+}
+
+.title {
+  padding-top: 150px;
+  color: white;
+  font-size: 75px;
+  font-weight: 900;
+}
