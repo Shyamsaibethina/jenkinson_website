@@ -44,3 +44,54 @@
   text-decoration: none;
   font-size: 17px;
 }
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+  margin-top: 48px;
+}
+
+.title_container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 48px;
+  text-align: center;
+  height: 600px;
+}
+
+.title {
+  padding-top: 150px;
+  color: white;
+  font-size: 75px;
+  font-weight: 900;
+}
+
+.descriptions {
+  background-color: black;
+}
+
+.purpose {
+  padding-top: 100px;
+  padding-left: 200px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.first_blurb {
+  padding-top: 40px;
+  color: white;
+  font-size: 20px;
+  padding-inline: 200px;
+}
+
+.nrggraphs {
+  padding-top: 50px;
+  width: 45%;
+}
+
+#graph1 {
+  padding-left: 70px;
+}
+#graph2 {
+  padding-left: 10px;
+}

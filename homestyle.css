@@ -221,6 +221,7 @@ h2 {
 
 .experience_description {
   font-size: x-large;
+  padding-inline: 100px;
 }
 
 .faq_container {
