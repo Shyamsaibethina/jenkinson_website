@@ -84,6 +84,7 @@
   padding-top: 40px;
   padding-left: 200px;
   padding-right: 200px;
+  line-height: 30px;
 }
 
 .vr_descriptions {
@@ -113,4 +114,5 @@
 
 #second_description {
   padding-top: 40px;
+  line-height: 30px;
 }
