@@ -4,29 +4,6 @@
   position: fixed;
 }
 
-/*
-img {
-  width: 100px;
-  border-radius: 50px;
-  border-color: red;
-  margin-right: 10px;
-}
-
-p.companyName {
-  font-weight: bold;
-  color: red;
-}
-
-h1 {
-  font-weight: 500;
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 30px;
-}
-*/
-
 .navmenu {
   background-color: black;
   overflow: hidden;
@@ -106,6 +83,7 @@ h2 {
 .company_picture {
   padding-left: 100px;
   padding-top: 300px;
+  position: fixed;
 }
 
 .howit_container {
