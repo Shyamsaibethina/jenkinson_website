@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   color: white;
-  position: fixed;
 }
 
 .navmenu {
@@ -20,12 +19,7 @@
 
 .header-nav-other:hover {
   color: gray;
-  /*background-color: orange;*/
 }
-
-/*.header-nav-logo:hover {
-  color: gray;
-}*/
 
 .header-nav-other {
   text-decoration: none;
@@ -42,22 +36,45 @@
   float: left;
   text-align: left;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
+}
+
+.company_title_container {
+  margin-top: 45px;
+  background-color: black;
+}
+
+.company_title {
+  padding-top: 100px;
+  font-weight: 900;
+  font-size: 80px;
+  text-align: center;
+}
+
+#jenkinson {
+  color: rgba(254, 108, 9, 255);
+}
+
+#enterprises {
+  color: rgba(0, 0, 254, 255);
+}
+
+#llc {
+  color: rgba(254, 108, 9, 255);
 }
 
 .top_left {
   background-color: black;
-  margin-top: 45px;
+  margin-top: 40px;
   float: left;
-  width: 1000px;
+  width: 70%;
 }
 
 #company_motto {
   padding-top: 100px;
   padding-left: 25px;
-  font-weight: 900;
-  font-size: 50px;
+  font-weight: 500;
+  font-size: 45px;
   color: white;
 }
 
@@ -77,12 +94,17 @@
 
 .top_right {
   background-color: black;
-  height: 400px;
+  /*height: 400px;*/
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .company_picture {
   padding-left: 100px;
   padding-top: 300px;
+  height: auto;
+  width: auto;
 }
 
 .howit_container {
@@ -122,14 +144,14 @@
   background-color: black;
   padding-top: 300px;
 }
-
+/*
 #organizaton_title {
   color: white;
   text-align: center;
   font-size: 50px;
   font-weight: 550;
   padding-top: 250px;
-}
+}*/
 
 .frow_pictures {
   width: 200px;
@@ -290,7 +312,7 @@
 }
 
 .performance {
-  color: blue;
+  color: rgb(82, 132, 241);
 }
 
 .sales {
@@ -298,5 +320,5 @@
 }
 
 .profits {
-  color: green;
+  color: rgb(12, 233, 12);
 }

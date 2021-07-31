@@ -144,3 +144,10 @@
   float: right;
   padding-right: 100px;
 }
+
+.ending {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: black;
+  text-align: center;
+}
